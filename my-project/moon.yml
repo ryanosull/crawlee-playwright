@@ -1,0 +1,12 @@
+id: strapi
+stack: backend
+tasks:
+  start:
+    command: yarn start
+    description: Start Strapi server with autoReload disabled (production mode).
+  develop:
+    command: yarn develop
+    description: Start Strapi server with autoReload enabled (development mode).
+  build:
+    command: yarn build
+    description: Builds admin panel
